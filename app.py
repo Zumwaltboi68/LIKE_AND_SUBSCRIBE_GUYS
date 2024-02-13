@@ -87,6 +87,7 @@ def generate(
     decoder_pipeline.to(device)
     
     generator = torch.Generator().manual_seed(seed)
+    print("prior_num_inference_steps: ", prior_num_inference_steps)
     prior_output = prior_pipeline(
         prompt=prompt,
         height=height,
