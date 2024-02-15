@@ -1,4 +1,5 @@
 git+https://github.com/kashif/diffusers.git@diffusers-yield-callback
+https://gradio-builds.s3.amazonaws.com/aabb08191a7d94d2a1e9ff87b0d3c3987cd519c5/gradio-4.18.0-py3-none-any.whl
 accelerate
 safetensors
 transformers
